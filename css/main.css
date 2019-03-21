@@ -97,19 +97,156 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*----------------BASE STYLES - HEADER/FOOTER COMBO-------------*/
 
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
+/*----------------HEADER STYLES-------------*/
 
+header .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.header-divider {
 
+}
 
+header nav {
+    display: flex;
+    flex-flow: row wrap;
+}
 
+header nav ul {
+    display: flex;
+}
 
+/*----------------MOBILE STYLES - HOMEPAGE-------------*/
 
+.hero-area {
+    display: flex;
+    flex-flow: row wrap;
+}
 
+main .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
 
+aside {
+    display: flex;
+    flex-flow: row wrap;
+}
 
+aside .content-wrapper {
+}
 
+.form-description {
+}
+
+.form {
+}
+
+.amenities {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.amenities .content-wrapper {
+    flex-flow: row wrap;
+}
+
+.amenities-items {
+    display: flex;
+    flex-flow: row wrap;
+}
+.tent-icon{
+
+}
+.amenity-description {
+}
+
+.bed-icon{
+
+}
+.food-icon {
+
+}
+.feet-icon {
+
+}
+.smile-icon {
+
+}
+.wifi-icon {
+
+}
+
+.reviews {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+
+}
+
+article {
+}
+
+.team-summary {
+}
+
+.faq {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.mission {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contact-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*----------------FOOTER STYLES-------------*/
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+.contact {
+    display: flex;
+}
+
+footer .social {
+    display: flex;
+}
+
+footer .social-icons {
+    display: flex;
+}
+
+.copyright {
+}
 
 
  /* ==========================================================================
